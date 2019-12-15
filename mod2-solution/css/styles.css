@@ -1,0 +1,84 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serief;
+  font-size: 16px;
+  color: sienna;	
+}
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 175%
+}
+div {
+  height: 210px;
+}
+section {
+  border: 1px solid black;
+  background-color: wheat;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+p.title {
+  width: 160px;
+  height: 40px;
+  float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 125%;
+}
+p.description {
+  height: 138px;
+  float: left;
+  overflow: hidden;
+}
+
+#item1 {
+	background-color: brown;
+  color: mistyrose;
+}
+#item2 {
+	background-color: olive;
+  color: yellow;
+}
+#item3 {
+	background-color: orange;
+  color: maroon;	
+}
+
+/********** Desktop devices **********/
+@media (min-width: 992px) {
+   	.col-md-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Tablet devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  	.col-sm-6, .col-sm-12 {
+    float: left;
+  }
+    .col-sm-6 {
+    width: 50%;
+  }
+    .col-sm-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile devices **********/
+@media (max-width: 767px) {
+  	.col-xs-12 {
+    float: left;
+    width: 100%;
+  }
+}
