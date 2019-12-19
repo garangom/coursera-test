@@ -1,0 +1,112 @@
+body {
+  font-size: 16px;
+  color: sienna;
+  background-color: lightyellow;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: darkseagreen;
+  border: 0;
+  height: 80px;
+}
+.navbar-brand {
+  padding-top: 20px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: chocolate;
+  font-size: 2.0em;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px maroon;
+  margin-top: 0;
+  margin-bottom: 20px;
+  float: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list a {
+  color: maroon;
+  text-align: center;
+  padding: 10px 0px 6px 0px;
+  height: 40px;
+}
+#nav-list a:hover {
+  background: darkkhaki;
+}
+#nav-list { 
+  position: relative;
+  top: 15px;
+  background-color: khaki;
+}
+#nav-list li {
+  height: 40px;
+}
+#nav-list hr {
+  border-color: beige;
+  position: relative;
+  top: -11px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid maroon;
+  
+}
+.navbar-header button.navbar-toggle {
+  float: right;
+  top: 11px;
+}
+/* END HEADER */
+
+h2 {
+  clear: both;
+  padding-top: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 175%
+  font-weight: bold;
+  color: green;
+}
+section {
+  background-color: wheat;
+  width: 100%;
+  height: 100%;
+}
+h3 {
+  padding-top: 30px;
+  font-size: 125%;
+  font-weight: bold;
+}
+p.description {
+  padding: 20px;
+ }
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.1em;
+  }
+
+  section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+  
